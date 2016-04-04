@@ -2,7 +2,7 @@ FROM quay.io/aptible/debian
 
 RUN apt-get update
 
-RUN apt-get install python3.4
+RUN apt-get install -Y python3.4
 
 RUN wget https://bootstrap.pypa.io/get-pip.py
 
