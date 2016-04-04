@@ -8,4 +8,6 @@ RUN wget https://bootstrap.pypa.io/get-pip.py
 
 RUN python3.4 get-pip.py
 
-RUN python3.4 -m pip install numpy scipy pandas
+RUN python3.4 -m pip install cython
+
+RUN python3.4 -m pip install numpy
