@@ -12,4 +12,4 @@ RUN	python3.4 get-pip.py
 
 RUN	python3.4 -m pip install cython
 
-RUN	python3.4 -m pip install numpy
+RUN	apt-get install python3-numpy
