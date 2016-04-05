@@ -1,13 +1,15 @@
 FROM debian:latest
 
+MAINTAINER Behnam Mazaheri <mazaheri@gmail.com>
+
 RUN	apt-get update
 
-	apt-get -y install build-essential python3.4 curl git wget
+RUN	apt-get -y install build-essential python3.4 curl git wget
 
-	wget https://bootstrap.pypa.io/get-pip.py
+RUN	wget https://bootstrap.pypa.io/get-pip.py
 
-	python3.4 get-pip.py
+RUN	python3.4 get-pip.py
 
-	python3.4 -m pip install cython
+RUN	python3.4 -m pip install cython
 
-	python3.4 -m pip install numpy
+RUN	python3.4 -m pip install numpy
