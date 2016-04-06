@@ -6,7 +6,7 @@ RUN	apt-get update
 
 RUN	apt-get upgrade
 
-RUN	apt-get -y install build-essential libc6 curl git wget ca-certificates gfortran
+RUN	apt-get -y install build-essential libc6 curl git wget ca-certificates gfortran libblas-dev liblapack-dev liblapacke 
 
 RUN	apt-get -y install python3.4
 
