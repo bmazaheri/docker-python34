@@ -15,4 +15,10 @@ RUN apt-get -y install python3.4
 RUN wget https://bootstrap.pypa.io/get-pip.py
 RUN python3.4 get-pip.py
 RUN python3.4 -m pip install cython
-RUN python3.4 -m pip install numpy
+RUN python3.4 -m pip install numpy pandas
+RUN python3.4 -m pip install scipy
+RUN python3.4 -m pip install scikit-learn
+RUN python3.4 -m pip install statsmodels
+RUN python3.4 -m pip install python-igraph
+RUN python3.4 -m pip install pybrain
+RUN python3.4 -m pip install cherrypy jinja2
