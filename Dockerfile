@@ -11,7 +11,8 @@ RUN apt-get -y install curl git wget
 RUN apt-get -y install libblas-dev
 RUN apt-get -y install liblapack-dev
 RUN apt-get -y install liblapacke
-RUN apt-get -y install libigraph0-dev
+RUN apt-get -y install libxml2 libxml2-dev
+RUN apt-get -y install libigraph0 libigraph0-dev
 RUN apt-get -y install python3.4 python3.4-dev
 RUN wget https://bootstrap.pypa.io/get-pip.py
 RUN python3.4 get-pip.py
