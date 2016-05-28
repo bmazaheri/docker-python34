@@ -17,6 +17,7 @@ RUN apt-get -y install python3.4 python3.4-dev
 RUN wget https://bootstrap.pypa.io/get-pip.py
 RUN python3.4 get-pip.py
 RUN python3.4 -m pip install cython
+RUN python3.4 -m pip install setuptools
 RUN python3.4 -m pip install numpy
 RUN python3.4 -m pip install pandas
 RUN python3.4 -m pip install scipy
