@@ -7,7 +7,9 @@ RUN apt-get upgrade
 RUN apt-get -y install build-essential
 RUN apt-get -y install libc6 
 RUN apt-get -y install gfortran
-RUN apt-get -y install curl git wget
+RUN apt-get -y install curl git wget automake
+RUN apt-get -y install gcc-core gtkdoc libtool pkg-config
+RUN apt-get -y install libcairo2-dev
 RUN apt-get -y install libblas-dev
 RUN apt-get -y install liblapack-dev
 RUN apt-get -y install liblapacke
